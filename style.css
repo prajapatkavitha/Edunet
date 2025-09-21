@@ -8,8 +8,6 @@ body {
     margin: 0;
     overflow-y: auto;
 }
-
-/* Full screen background container */
 .app-background {
     position: fixed;
     top: 0;
@@ -22,8 +20,6 @@ body {
     filter: brightness(0.7);
     z-index: -1;
 }
-
-/* Wrapper for content to allow positioning on top of background */
 .content-wrapper {
     display: flex;
     flex-direction: column;
@@ -35,18 +31,14 @@ body {
     box-sizing: border-box;
     position: relative;
 }
-
-/* Humorous report at the top */
 .top-humor-report {
-    font-size: 2.5em;
+    font-size: 2.1em;
     font-weight: 700;
     text-align: center;
     margin-bottom: 2rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     animation: fadeIn 1.5s ease-in-out;
 }
-
-/* Main layout container for three columns */
 .main-layout-container {
     display: flex;
     justify-content: space-between;
@@ -56,8 +48,6 @@ body {
     width: 100%;
     flex-wrap: nowrap;
 }
-
-/* Individual Card Styling */
 .weather-stuff, .weather-location-info, .weather-report-card {
     background: rgba(2, 207, 253, 0.245);
     border-radius: 15px;
@@ -68,14 +58,10 @@ body {
     min-width: 250px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-/* New: Hover effect for cards */
 .weather-stuff:hover, .weather-location-info:hover, .weather-report-card:hover {
     transform: scale(1.02);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
-
-/* Individual card animations for a smooth entry */
 .weather-stuff {
     animation: slideInFromTop 0.8s ease-out;
 }
@@ -91,7 +77,6 @@ body {
     flex-direction: column;
     gap: 20px;
 }
-
 .report-body {
     display: flex;
     justify-content: space-between;
@@ -205,7 +190,6 @@ body {
     margin: 5px 0;
 }
 
-/* Animations */
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -221,8 +205,6 @@ body {
         transform: translateY(0);
     }
 }
-
-/* Forecast Section */
 .forecast-container {
     margin-top: 10px;
     width: 90%;
@@ -295,8 +277,6 @@ body {
     font-size: 1em;
     margin: 0;
 }
-
-/* Responsive adjustments */
 @media (max-width: 900px) {
     .main-layout-container {
         flex-direction: column;
@@ -315,4 +295,5 @@ body {
         flex-direction: column;
         gap: 20px;
     }
+
 }
