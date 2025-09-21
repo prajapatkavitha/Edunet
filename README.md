@@ -7,15 +7,10 @@ A dynamic and interactive web application that provides a real-time weather repo
 ## Features
 
   * **Real-time Weather:** Get the current temperature, humidity, and wind speed for any city in the world.
-  * **Humorous "Vibe Check":** The app greets you with a witty one-liner that changes based on the weather conditions.
   * **Dynamic Background:** The background image automatically updates to match the current weather (e.g., cloudy, rainy, or clear).
   * **Location-Based Data:** The app uses geolocation to automatically display the weather for your current location upon first load.
   * **24-Hour Forecast:** View a detailed report of the next 24 hours in 3-hour intervals.
   * **7-Day Forecast:** Plan your week with a glance at the upcoming daily weather trends.
-  * **Interactive Toggling:** Easily switch between the hourly and weekly forecasts using dedicated buttons.
-  * **Temperature Animation:** A smooth animation shows the current temperature number.
-  * **Fully Responsive:** The layout is optimized to look great on both desktop and mobile devices.
-
 -----
 
 ## Technologies Used
@@ -24,8 +19,6 @@ A dynamic and interactive web application that provides a real-time weather repo
   * **CSS3:** For styling, animations, and responsive design.
   * **JavaScript (ES6+):** For all the app's functionality, including API calls, data manipulation, and DOM interactions.
   * **[OpenWeatherMap API](https://openweathermap.org/api):** Provides the weather and forecast data.
-  * **Google Fonts:** Used for the `Roboto` font family.
-  * **Font Awesome:** For the weather and time icons.
 
 -----
 
