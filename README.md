@@ -1,4 +1,4 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4eb27b41-e946-4a39-b518-d1bd14586ba8" /># My Super Fun Weather App ✨
+# My Super Fun Weather App ✨
 
 A dynamic and interactive web application that provides a real-time weather report, complete with a unique "vibe check," and detailed hourly and weekly forecasts. It's designed to be both informative and entertaining.
 
