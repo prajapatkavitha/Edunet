@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Super Fun Weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div id="app-background" class="app-background"></div> 
+    
+    <div class="content-wrapper">
+        <h1 id="top-humor-report" class="top-humor-report">Welcome! Let's check the vibes. ✨</h1>
+        
+        <div class="main-layout-container">
+            <div id="search-card" class="weather-stuff">
+                <h1 class="main-title">What's the weather like? 🤔</h1> 
+                <div class="search-section">
+                    <input type="text" id="city-input" placeholder="Enter a city..." class="city-input-field">
+                    <button id="search-button" class="search-button">
+                        Search
+                    </button>
+                </div>
+                <div id="error-message" class="error-text hidden">
+                    Uh oh, city not found. Check the spelling! 🙄
+                </div>
+            </div>
+
+            <div id="weather-location-info" class="weather-location-info hidden">
+                <h2 id="city-name"></h2>
+                <div class="time-info">
+                    <p><i class="fas fa-calendar-alt"></i> <span id="current-date"></span></p>
+                    <p><i class="fas fa-clock"></i> <span id="current-time"></span></p>
+                    <p><i class="fas fa-sun"></i> / <i class="fas fa-moon"></i> <span id="day-night-status"></span></p>
+                </div>
+            </div>
+
+            <div id="weather-report-card" class="weather-report-card hidden">
+                <div id="current-day-name" class="current-day-name"></div>
+                <div class="report-body">
+                    <div class="main-weather-info">
+                        <div class="icon-container">
+                            <img id="weather-icon" src="" alt="Weather icon">
+                        </div>
+                        <div class="info-row">
+                            <span id="temperature" class="temp-number"></span>
+                            <span class="temp-unit">°C</span>
+                        </div>
+                    </div>
+                    <div class="extra-info">
+                        <p>Humidity: <span id="humidity"></span></p>
+                        <p>Wind Speed: <span id="wind-speed"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <p id="description" class="weather-mood-line hidden"></p>
+
+        <div id="hourly-forecast-container" class="forecast-container hidden">
+            <h2 class="forecast-title">Your Hourly Vibe Check</h2>
+            <div id="hourly-cards-container" class="forecast-cards-container">
+            </div>
+        </div>
+        
+        <div id="weekly-forecast-container" class="forecast-container hidden">
+            <h2 class="forecast-title">Your Weekly Vibe Check</h2>
+            <div id="weekly-cards-container" class="forecast-cards-container">
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
