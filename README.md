@@ -2,7 +2,13 @@
 
 A dynamic and interactive web application that provides a real-time weather report, complete with a unique "vibe check," and detailed hourly and weekly forecasts. It's designed to be both informative and entertaining.
 
------
+---
+
+## Live Demo
+
+You can view the live project here: [https://prajapatkavitha.github.io/My-Super-Fun-Weather-App/](https://prajapatkavitha.github.io/My-Super-Fun-Weather-App/)
+
+---
 
 ## Features
 
